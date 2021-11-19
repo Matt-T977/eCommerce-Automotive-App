@@ -3,18 +3,20 @@
 ## Developers : Matthew Taylor, Christopher Molitoris, NiGeanya Hawkins, Gavin Corkery
 
 #### Stack: msSQL - C# | ASP.NET Core | Entity Framework | Identity - Javascript | React JS
+##### APIs: Paypal API | Cloudinary
 
 Description in progress
 
 ### Notable Features:
 
 #### Frontend:
--Buyer | Seller Log In and Registration.
--Account page with editing capability for user profiles.
--Seller Page to post new products with image upload, as well as delete current postings.
--Products Page for a dynamically updating list of available products.
--Products page also includes a live feedback search bar and drop down filter.
--Product Details Page allows the user to see similar products as well as the reviews and rating of the current product.
+- Buyer | Seller Log In and Registration.
+- Account page with editing capability for user profiles.
+- Seller Page to post new products with image upload using Cloudinary, as well as delete current postings.
+- Products Page for a dynamically updating list of available products.
+- Products page also includes a live feedback search bar and drop down filter.
+- Product Details Page allows the user to see similar products as well as the reviews and rating of the current product.
+- Full check out capability on the Cart Page with Paypal API
 
 #### Backend:
 - full MVC model set up via Entity and ASP.NET
